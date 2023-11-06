@@ -6,7 +6,7 @@ class Config(object):
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "6734665765:AAFGHU2MGaTCiQMOQmwEH93WLtWfkHEbtw4")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "Public_File_Storage_Bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001991993757"))
-  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "https://adrinolinks.in/")
+  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "adrinolinks.com")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "6f77e1eb38310ff998251cdfa2b2561f86bd9353")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "6483776439"))
   DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://FileStoreBot:FileStoreBot@cluster0.jou43ts.mongodb.net/?retryWrites=true&w=majority")
